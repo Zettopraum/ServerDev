@@ -1,0 +1,13 @@
+# Ігнорувати середовища Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+
+# Віртуальне середовище
+venv/
+
+*.log
+/media/
+.vscode/
+.idea/
