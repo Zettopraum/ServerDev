@@ -1,12 +1,12 @@
 from rest_framework import serializers
 from user.serializers import UserSerializer
 from content.serializers import ContentSerializer
-from reviews.models import Reviews
+from recommendations.models import Recommendations
 
-class ReviewsSerializer(serializers.ModelSerializer):
+class RecommendationsSerializer(serializers.ModelSerializer):
     user_id = UserSerializer()  
     content_id = ContentSerializer()  
 
     class Meta:
-        model = Reviews
-        fields = ['user','content','rating','comment','review_date']
+        model = Recommendations
+        fields = ['user','content','recommended_date','content_id','user_id']

@@ -1,6 +1,6 @@
 from rest_framework import generics
 from content.models.content import Content
-from content.serializers.serializers import ContentSerializer
+from content.serializers.content import ContentSerializer
 from drf_spectacular.utils import extend_schema
  
 @extend_schema(summary="Отримання списку всього контенту.")

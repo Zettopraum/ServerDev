@@ -1,6 +1,6 @@
 from rest_framework import generics
 from watchlist.models.watchlist import Watchlist
-from watchlist.serializers.serializers import WatchlistSerializer
+from watchlist.serializers.watchlist import WatchlistSerializer
 from drf_spectacular.utils import extend_schema
 
 @extend_schema(summary="Отримання списку всіх списків перегляду.")

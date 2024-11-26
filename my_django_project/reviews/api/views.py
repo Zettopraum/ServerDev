@@ -1,6 +1,6 @@
 from rest_framework import generics
 from reviews.models.reviews import Reviews
-from reviews.serializers.serializers import ReviewsSerializer
+from reviews.serializers.reviews import ReviewsSerializer
 from drf_spectacular.utils import extend_schema
 
 @extend_schema(summary="Отримання списку всіх рецензій.")

@@ -1,6 +1,6 @@
 from rest_framework import generics
 from user.models.user import User
-from user.serializers.serializers import UserSerializer
+from user.serializers.user import UserSerializer
 from drf_spectacular.utils import extend_schema
 
 @extend_schema(summary="Отримання списку всіх користувачів.")

@@ -1,6 +1,6 @@
 from rest_framework import generics
 from genres.models.genres import Genres
-from genres.serializers.serializers import GenresSerializer
+from genres.serializers.genres import GenresSerializer
 from drf_spectacular.utils import extend_schema
  
 @extend_schema(summary="Отримання списку всіх жанрів.")

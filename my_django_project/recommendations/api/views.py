@@ -1,6 +1,6 @@
 from rest_framework import generics
 from recommendations.models.recommendations import Recommendations
-from recommendations.serializers.serializers import RecommendationsSerializer
+from recommendations.serializers.recommendations import RecommendationsSerializer
 from drf_spectacular.utils import extend_schema
  
 @extend_schema(summary="Отримання списку всіх рекомендацій.")
