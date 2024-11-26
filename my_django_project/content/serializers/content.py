@@ -7,4 +7,4 @@ class ContentSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = Content
-        fields = ['genre_id','title','description','release_date','rating']
+        fields = ['id','genre_id','title','description','release_date','rating']

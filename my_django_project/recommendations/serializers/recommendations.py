@@ -9,4 +9,4 @@ class RecommendationsSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = Recommendations
-        fields = ['user','content','recommended_date','content_id','user_id']
+        fields = ['id','user','content','recommended_date','content_id','user_id']

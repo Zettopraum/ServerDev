@@ -9,4 +9,4 @@ class WatchlistSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = Watchlist
-        fields = ['user','content','added_date','user_id','content_id']
+        fields = ['id','user','content','added_date','user_id','content_id']
